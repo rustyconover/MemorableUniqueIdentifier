@@ -55,7 +55,8 @@ if deploy
     # Upload tarballs to a special github release
     @info("Uploading tarballs to $(deploy_repo) tag `$(tag)`")
     ghr() do ghr_exe
-        run(`$ghr_exe -u rustyconover -r $(basename(deploy_repo)) $(tag) $(tempdir)`)
+        # This may need the -u flag for the github user.
+        run(`$ghr_exe  -r $(basename(deploy_repo)) $(tag) $(tempdir)`)
     end
 
     @info("Artifacts.toml file now contains all bound artifact names")
