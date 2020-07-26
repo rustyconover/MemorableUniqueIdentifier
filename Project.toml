@@ -1,7 +1,7 @@
 name = "MemorableUniqueIdentifier"
 uuid = "6b7b3763-cd0c-472b-8fbb-4a24108ca9a5"
 authors = ["Rusty Conover <rusty@conover.me>"]
-version = "0.1.1"
+version = "1.0.0"
 
 [deps]
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
