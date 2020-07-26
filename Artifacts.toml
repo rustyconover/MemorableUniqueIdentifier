@@ -4,4 +4,4 @@ lazy = true
 
     [[animals.download]]
     sha256 = "f7c0295298886010ad3dfbf09585b490ca059334247ccd92ac74982a7f4ac0b3"
-    url = "https://github.com/git@github.com:rustyconover/muid-julia/releases/download/v0.0.2/animals.tar.gz"
+    url = "https://github.com/rustyconover/muid-julia/releases/download/v0.0.2/animals.tar.gz"
