@@ -46,6 +46,12 @@ uuid = "56ddb016-857b-54e1-b83d-db4d58db5568"
 deps = ["Base64"]
 uuid = "d6f4376e-aef5-505a-96c1-9c027394607a"
 
+[[MemorableUniqueIdentifier]]
+deps = ["Documenter", "JSON", "Pkg", "SHA", "Test"]
+path = "/Users/rusty/Development/muid-julia/MemorableUniqueIdentifier"
+uuid = "6b7b3763-cd0c-472b-8fbb-4a24108ca9a5"
+version = "1.0.1"
+
 [[Mmap]]
 uuid = "a63ad114-7e13-5084-954f-fe012c677804"
 
